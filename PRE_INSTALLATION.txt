@@ -1,0 +1,2 @@
+# sudo apt install clang-format
+# sudo apt-get install -y clang-tidy
