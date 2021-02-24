@@ -6,5 +6,8 @@
 # sudo updatedb
 # locate clang-c/Index.h
 
+############ CHECK LLVM
+# llvm-config --version --prefix --includedir --libdir
+
 ############ INSTALLATION
 # make -D LibClang_LIBRARY=/usr/lib/llvm-6.0/lib/libclang-6.0.so.1 ..
