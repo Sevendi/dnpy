@@ -1,2 +1,10 @@
+############ PRE INSTALLATION
 # sudo apt install clang-format
 # sudo apt-get install -y clang-tidy
+# sudo apt install linuxbrew-wrapper
+# brew install llvm --with-clang
+# sudo updatedb
+# locate clang-c/Index.h
+
+############ INSTALLATION
+# make -D LibClang_LIBRARY=/usr/lib/llvm-6.0/lib/libclang-6.0.so.1 ..
